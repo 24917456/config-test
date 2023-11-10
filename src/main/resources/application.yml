@@ -1,0 +1,11 @@
+server:
+  port: 3344
+
+spring:
+  application:
+    name:  cloud-config-center #注册进Eureka服务器的微服务名
+  cloud:
+    config:
+      server:
+        git:
+          uri: git@github.com:24917456/Spring_cloud.git #GitHub上面的git仓库名字
